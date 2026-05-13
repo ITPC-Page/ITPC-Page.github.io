@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Fast Integrated Planning and Control under Non-negligible Uncertainties</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<style>
+  .section-divider {
+    border: none;
+    height: 4px;
+    background-color: #e0e0e0;
+    margin: 5rem 0 3rem 0;
+  }
+
+  .quadruped-section {
+    margin-top: 2rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+    border-top: 4px solid #e0e0e0;
+    border-bottom: 4px solid #e0e0e0;
+  }
+
+  .paper-caption {
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    text-align: left;
+    color: #000;
+  }
+
+  .paper-caption strong {
+    font-weight: 800;
+  }
+
+  .paper-caption em {
+    font-style: italic;
+    
+  }
+  .submission-note {
+  margin-top: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #555;
+  text-align: center;
+}
+
+</style>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+
+          <!-- Title -->
+          <h1 class="title is-1 publication-title">
+            Fast Integrated Planning and Control under Non-negligible Uncertainties
+          </h1>
+
+          <!-- Submission note -->
+          <p class="submission-note">
+            * All author information is removed due to review policy reasons
+          </p>
+
+          <!-- Anonymous review note
+          <p class="review-note">
+            * All author information is removed due to review policy reasons
+          </p> -->
+
+          <!-- Buttons -->
+          <div class="publication-links">
+            <span class="link-block">
+              <a href="#" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>Arxiv</span>
+              </a>
+            </span>
+
+            <span class="link-block">
+              <a class="external-link button is-normal is-rounded is-dark
+                        has-tooltip-bottom"
+                title="The code will be released upon acceptance of this work.">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+              </a>
+            </span>
+          </div>
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+      <figure class="paper-figure">
+        <img src="static/images/Overview.png" alt="Overview figure">
+        
+        <p class="has-text-left"
+          style="font-size:2rem;line-height:1.5;margin-top:1rem;margin-bottom: 2rem;hyphens: auto;">
+          Fig. 1:
+          <strong>Fast Integrated Planning and Control under Non-negligible Uncertainties.</strong>
+          <em>Upper:</em> Conventional hierarchical navigation relies on time-parameterized trajectories generated under nominal assumptions, leading to feasibility mismatch and limited disturbance adaptation.
+          <em>Lower:</em> The proposed two-layer architecture integrates trajectory planning and control into a single disturbance-aware optimization layer, directly mapping waypoints to dynamics-level 
+          control commands by jointly accounting for estimated disturbances and variable discretization.
+        </p>
+      </figure>
+      <!-- <div class="item" style="margin-top: 3rem; text-align: left;">
+        <img src="static/images/table.png" alt="PRED-MPPI table"
+                        style="max-width: 80%; height: auto;">
+      </div> -->
+  <!-- </div> -->
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<style>
+#results-carousel img {
+  max-width: 100% !important;  
+  width: 100%;      
+  height: auto;            
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+  
+<!-- Abstract & Contributions -->
+<!-- <section class="section hero is-light">
+  <div class="container is-fullhd">
+
+    <div class="columns is-variable is-8">
+
+      <div class="column is-8">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified" style="font-size: 1.4rem; line-height: 1.65;">
+          <p>
+            Hierarchical navigation systems typically rely on low-level controllers to compensate 
+            for disturbances or modeling uncertainties, while planning decisions are made using simplified 
+            nominal models. Under non-negligible Uncertainties, such separation can lead to dynamically 
+            infeasible motion and degraded closed-loop performance. This paper presents a disturbance-aware 
+            Integrated Trajectory Planner and Controller (ITPC) that explicitly accounts for uncertainties 
+            at the dynamics level. Given only waypoints from arbitrary path planners (e.g., A*, Vision-Language-Action methods), 
+            the proposed framework directly generates control commands by jointly reasoning over full-order system 
+            dynamics with estimated disturbance considering motion progression, without requiring time-parameterized 
+            reference trajectories or predefined velocity profiles. To enable real-time operation on resource-constrained 
+            platforms, we introduce a variable discretization strategy that extends the effective prediction horizon 
+            while maintaining low computational cost. This allows the system to adapt its motion in response to 
+            environmental disturbances rather than tracking a fixed nominal trajectory. Extensive simulations 
+            and hardware experiments demonstrate that ITPC achieves improved robustness and safety compared to 
+            representative hierarchical baselines, while remaining computationally efficient on resource-constrained 
+            platforms with limited CPU-only computational resources. 
+          </p>
+        </div>
+      </div>
+
+      <div class="column is-4">
+        <h2 class="title is-3">Contributions</h2>
+        <div class="content" style="font-size: 1.4rem; line-height: 1.65;">
+          <ol>
+            <li>
+              <strong>Disturbance-aware integrated planning and control.</strong>
+              A unified optimization layer directly maps waypoints to control commands
+              under state and disturbance uncertainties.
+            </li>
+            <li>
+              <strong>Computationally efficient long-horizon optimization.</strong>
+              A variable discretization strategy enables real-time performance on
+              resource-constrained platforms.
+            </li>
+            <li>
+              <strong>Extensive real-world validation.</strong>
+              Simulation and hardware experiments demonstrate improved robustness and safety
+              over representative baselines.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section> -->
+<!-- End Abstract & Contributions -->
+
+<!-- <section class="section">
+  <div class="container is-fullhd">
+    <h2 class="title is-2 has-text-left">Methods</h2>
+
+    <div class="columns is-vcentered">
+      
+      <div class="column is-6">
+        <div class="content has-text-justified">
+          <p style="font-size: 1.4rem; line-height: 1.6;">
+            This section presents the proposed ITPC. Rather than introducing independent 
+            algorithmic components, the results are organized to reflect a coherent 
+            progression from disturbance-aware state estimation, through computationally 
+            efficient horizon discretization, to an integrated planning and control 
+            architecture. We first introduce a FR-MHE that enables real-time joint 
+            state/disturbance estimation under tight computational constraints. 
+            Building upon this estimator, we further tackle the resulting increase 
+            in computational complexity induced by integrated design via proposing a 
+            VDG strategy, which preserves long-horizon foresight while maintaining 
+            tractable online computation. Finally, we integrate FR-MHE and VDG into a 
+            unified sampling-based MPC framework, yielding the ITPC that jointly reasons 
+            about planning and control at the dynamics level with merely waypoints as 
+            its input. Together, these results establish a disturbance-aware, 
+            computationally efficient, and fully integrated navigation framework that 
+            departs from conventional hierarchical designs.
+          </p>
+        </div>
+      </div>
+
+      <div class="column is-6">
+        <figure class="image">
+          <img src="static/images/ITPC.png" alt="ITPC Method Overview">
+          <figcaption class="paper-caption" style="font-size: 1.2rem; margin-top: 0.5rem;">
+            Fig. 2: Overview of the proposed ITPC framework.
+          </figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Results section -->
+<hr class="section-divider">
+<section class="hero is-small">
+  <div class="container is-fullhd">
+
+    <!-- Title -->
+    <h2 class="title is-2 has-text-left">Quadrotor Simulation Experiments</h2>
+
+    <!-- Intro text -->
+    <!-- <p class="has-text-left"
+       style="font-size: 1.6rem; line-height: 1.5; margin-bottom: 2.5rem;">
+      We present a comprehensive comparison study conducted in a high-fidelity
+      Gazebo environment to systematically validate the proposed ITPC framework.
+      The evaluation is structured around the following three research questions.
+    </p> -->
+        <!-- Text + table -->
+    <p class="has-text-left"
+       style="font-size:2rem;line-height:1.5;margin-top:3rem;hyphens: auto;">
+      We consider three configurations in Gazebo Simulation. Note that in this comparison, log-MPPI
+      serves as both the local trajectory planner and the cascaded controller. 
+    </p>
+
+    <ol style="font-size:2rem;line-height:1.6;margin-left:1.5rem;">
+      <li><strong>A*+MPPI:</strong> path planner + log-MPPI with fixed velocity.</li>
+      <li><strong>A*+miniS+MPPI:</strong> path planner + global trajectory planner + log-MPPI.</li>
+      <li><strong>A*+ITPC:</strong> path planner + proposed ITPC.</li>
+    </ol>
+
+    <p class="has-text-left"
+       style="font-size:2rem;line-height:1.5;margin-top:1rem;margin-bottom: 2rem;hyphens: auto;">
+      The evaluation is structured around the following three research questions.
+    </p>
+    
+    <!-- ================= Q1 ================= -->
+    <h2 class="title is-4 has-text-left"
+        style="font-size: 2.1rem; margin-bottom: 2rem;">
+      <strong>Q1:</strong> Can the proposed FR-MHE achieve accurate joint state and
+      disturbance estimation while maintaining real-time computational performance
+      and robustness?
+    </h2>
+
+    <div class="carousel results-carousel">
+
+      <!-- Q1 – Fig 3 -->
+      
+      <div class="item">
+        <div class="columns is-vcentered">
+          <div class="column is-6">
+            <img src="static/images/hover_yz.png"
+                 style="display:block;margin:auto;max-width:100%;">
+          </div>
+          <div class="column is-6">
+            <img src="static/images/hover_xy.png"
+                 style="display:block;margin:auto;max-width:100%;">
+          </div>
+        </div>
+
+        <p class="has-text-left"
+           style="font-size:2rem;margin-top:1rem;hyphens: auto;">
+          Fig. 3: Hovering experiment results in the Y–Z and X–Y planes.
+        </p>
+      </div>
+
+      <!-- Q1 – Fig 4 -->
+      <div class="item">
+      
+        <div class="columns is-vcentered">
+          <div class="column is-6">
+            <img src="static/images/time_RMHE.png"
+                 style="display:block;margin:auto;max-width:100%;">
+          </div>
+          <div class="column is-6">
+            <img src="static/images/time_FRMHE.png"
+                 style="display:block;margin:auto;max-width:100%;">
+          </div>
+
+        </div>
+
+        <p class="has-text-left"
+           style="font-size:2rem;margin-top:1rem;hyphens: auto;">
+          Fig. 4: Computation time comparison of RMHE, FR-MHE, and REKF.
+          Box height denotes the inter-quartile range (IQR).
+        </p>
+      </div>
+
+    </div>
+
+    <!-- ================= Q2 ================= -->
+    <h2 class="title is-4 has-text-left"
+        style="font-size: 2.1rem; margin: 3rem 0 2rem;">
+      <strong>Q2:</strong> Can the ITPC framework remain computationally efficient
+      under disturbance-augmented dynamics and extended prediction horizons?
+    </h2>
+
+    <div class="carousel results-carousel">
+
+      <div class="item">
+        <img src="static/images/devices.png"
+             style="display:block;margin:auto;max-height:560px;width:auto;">
+        <p class="has-text-left"
+           style="font-size:2rem;margin-top:1rem;hyphens: auto;">
+          Fig. 5: Platforms used for algorithm evaluation span a wide range of
+          budgets and CPU core configurations.
+        </p>
+      </div>
+
+      <div class="item">
+        <img src="static/images/table_compute.png"
+             style="display:block;margin:auto;max-height:460px;width:auto;">
+      </div>
+
+    </div>
+
+    <!-- ================= Q3 ================= -->
+    <h2 class="title is-4 has-text-left"
+        style="font-size: 2.1rem; margin: 3rem 0 2rem;">
+      <strong>Q3:</strong> To what extent does ITPC outperform conventional
+      hierarchical navigation pipelines under non-negligible uncertainties,
+      and can it actively exploit disturbances through integrated design?
+    </h2>
+
+    <div class="carousel results-carousel">
+
+      <!-- No wind -->
+      <div class="item">
+        <img src="static/images/mini-nowind.png"
+             style="display:block;margin:auto;max-height:600px;">
+        <img src="static/images/ITPC-nowind.png"
+             style="display:block;margin:1.5rem auto 0;max-height:600px;">
+
+        <p class="has-text-left"
+           style="font-size:2rem;margin-top:1rem;hyphens: auto;">
+          Fig. 6: <strong>No wind.</strong> Baseline hierarchical pipeline (upper)
+          vs. proposed ITPC (lower).
+        </p>
+      </div>
+
+      <!-- Wind -->
+      <div class="item">
+        <img src="static/images/mini-wind.png"
+             style="display:block;margin:auto;max-height:600px;">
+        <img src="static/images/ITPC-wind.png"
+             style="display:block;margin:1.5rem auto 0;max-height:600px;">
+
+        <p class="has-text-left"
+           style="font-size:2rem;margin-top:1rem;hyphens: auto;">
+          Fig. 7: <strong>Wind (3–4 m/s).</strong> Hierarchical pipeline vs. ITPC.
+        </p>
+      </div>
+
+      <!-- No constraint -->
+      <div class="item">
+        <img src="static/images/ITPC-nc.png"
+             style="display:block;margin:auto;max-height:650px;">
+
+        <p class="has-text-left"
+           style="font-size:2rem;margin-top:1rem;hyphens: auto;">
+          Fig. 8: ITPC without velocity constraint.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- <div class="columns is-centered" style="margin-top:2rem;">
+      <div class="column is-7">
+        <img src="static/images/table_ITPC.png"
+             style="display:block;margin:auto;max-width:100%;">
+      </div>
+    </div> -->
+    <p class="has-text-left"
+      style="font-size: 2.3rem; line-height: 1.5; margin-top: 0.75rem;hyphens: auto;">
+      <strong>Video demonstration of simulation: </strong>
+    </p>
+    <!-- <p class="has-text-left"
+      style="font-size: 1.6rem; line-height: 1.5; margin-top: 0.75rem;">
+      When <strong>wind disturbances</strong> are introduced, the limitations of hierarchical
+      designs become evident. In contrast, the proposed ITPC maintains a
+      90% success rate under the same conditions, despite only one trial failing to
+      a local minimum stuck case due to the sampling nature of MPPI algorithm, as depicted in Fig. 7.
+    </p>
+    <p class="has-text-left"
+      style="font-size: 1.6rem; line-height: 1.5; margin-top: 0.75rem; margin-bottom: 1rem;">
+    To further examine the potential of the proposed integrated
+    planning and control, we <strong>remove the velocity constraint</strong> in
+    ITPC. As shown in Fig. 8, the system achieves smoother
+    and more agile navigation, reaching a maximum speed of
+    5.26 m/s with a 100% success rate over ten trials. 
+    </p> -->
+    <div class="item" style="margin-bottom: 2rem;margin-top: 1rem;">
+      <video autoplay controls muted loop width="100%">
+        <source src="static/videos/simulation.mp4" type="video/mp4">
+      </video>
+      <p class="has-text-left" 
+        style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem;hyphens: auto;">
+        <strong>Simulation Results:</strong> These simulation results demonstrate that eliminating rigid velocity prescriptions
+        and allowing planning decisions to emerge from dynamics-
+        level optimization can unlock additional performance gains,
+        reinforcing the benefits of the proposed integration paradigm.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Results section -->
+<hr class="section-divider">
+<section class="hero is-small">
+  <div class="container is-fullhd">
+    <div class="container">
+    <h2 class="title is-2 has-text-left">Real-world Quadrotor Experiments</h2> 
+
+      <div class="item">
+          <video autoplay controls muted loop width="100%">
+            <source src="static/videos/exp_demo.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-left"
+          style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem;hyphens: auto;">
+          <strong>Real-world Experimental Results:</strong> The left panel shows the classical hierarchical design (case (ii)), 
+          which collides with the obstacles twice. In contrast, the right panel demonstrates 
+          the proposed ITPC framework, which safely bypasses the obstacles by adaptively 
+          exploiting the wind disturbance.</p>
+      </div>
+
+    <div class="carousel results-carousel">
+
+      <div class="item">
+        <img src="static/images/exp_mini_wind.png"
+             style="display:block; margin:auto; max-height:600px;">
+        <img src="static/images/exp_ITPC.png"
+             style="display:block;margin:1.5rem auto 0;max-height:600px;">
+
+        <p class="has-text-left"
+           style="font-size:2rem;margin-top:1rem;hyphens: auto;">
+          Fig. 9: <strong>Real-world Comparative Results. :</strong> Comparison of ten experimental trials between the baseline hierarchical design (Case ii) and
+          the proposed ITPC under a 3-4 m/s fan-induced wind gust.
+        </p>
+      </div>
+
+      <div class="item">
+        <img src="static/images/exp_devices.jpg"
+             style="display:block; margin:auto; margin-top: 20rem; max-height:600px;">
+        <p class="has-text-centered"
+           style="font-size:2rem; margin-top:1rem;hyphens: auto;">
+          Fig. 10: Platforms utilized in experiments.
+        </p>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Results section -->
+<section class="hero is-small is-light quadruped-section">
+  <div class="container is-fullhd">
+    <div class="container">
+    <h2 class="title is-2 has-text-left">Quadrupted Robot Experiments</h2> 
+
+      <div class="has-text-left"
+        style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem; margin-bottom: 2rem;hyphens: auto;">
+        <p>
+          Further ablations account for inherent low-level execution latency and tracking degradation by adopting a multiplicative
+          disturbance model. To validate this, we conduct two sets of experiments on the Unitree Go2 platform, evaluating:
+        </p>
+        <ol style="margin-top: 0.75rem; margin-left: 1.5rem;">
+          <li><strong>The necessity of incorporating low-level performance into high-level.</strong></li>
+          <li><strong>The importance of sequential waypoints with target-switching logic, rather than a single subgoal.</strong></li>
+        </ol>
+      </div>
+
+    <div class="item">
+          <div class="columns is-variable is-4">
+            <div class="column">
+              <video autoplay controls muted loop width="100%">
+                <source src="static/videos/collision.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column">
+              <video autoplay controls muted loop width="100%">
+                <source src="static/videos/indoorITPC.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <p class="has-text-left"
+          style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem;margin-bottom: 2rem;hyphens: auto;">
+          <strong>Indoor Collision-avoidance Experiments:</strong> The left panel shows some failure cases of the nominal navigation model, which easily collides with dynamic
+          obstacles due to uncompensated system latency and tracking errors. </p>
+      </div>
+
+
+      <div class="item">
+          <video autoplay controls muted loop width="100%">
+            <source src="static/videos/OutdoorCompare.mp4" type="video/mp4">
+          </video>
+          <p class="has-text-left"
+          style="font-size: 2rem; line-height: 1.5; margin-top: 0.75rem;hyphens: auto;">
+          <strong>Outdoor Local-minima Experiments:</strong> The left panel employs a single waypoint placed a relatively large distance (0.5 m) ahead
+          along the path. This baseline is highly prone to falling into local minima because it often positions the target directly behind an obstacle.
+          </p>
+      </div>
+
+    <div class="carousel results-carousel">
+
+
+
+    </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- End Results section -->
+<style>
+.carousel img {
+  max-width: 70%; 
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 8px; 
+}
+</style>
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code> 
+        <!-- @article{zhang2026Fast,
+          title={Fast Integrated Planning and Control under Non-negligible Uncertainties},
+          author={Haodi Zhang, Jiaheng Lu, Jinya Su, Shihua Li and Wen-Hua Chen},
+          journal={arxiv},
+          year={2026},
+          volume={1},
+          number={1},
+          pages={1-10},
+        } -->
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
